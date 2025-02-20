@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CanvelBackEnd")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c0e95d3ed25f55adde589d9ce6ed88d5590de7b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("CanvelBackEnd")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CanvelBackEnd")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
