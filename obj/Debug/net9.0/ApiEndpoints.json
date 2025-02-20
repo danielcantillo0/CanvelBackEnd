@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CanvelBackEnd.Controllers.SendEmailController",
+    "Method": "Post",
+    "RelativePath": "api/SendEmail",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "email",
+        "Type": "CanvelBackEnd.Controllers.SendEmailController\u002BEmailModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "CanvelBackEnd.Controllers.SendEmailController",
+    "Method": "Get",
+    "RelativePath": "api/SendEmail",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  }
+]
