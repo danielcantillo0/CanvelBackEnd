@@ -35,3 +35,4 @@ C:\Users\Usuario\source\repos\CanvelBackEnd\obj\Release\net9.0\refint\CanvelBack
 C:\Users\Usuario\source\repos\CanvelBackEnd\obj\Release\net9.0\CanvelBackEnd.pdb
 C:\Users\Usuario\source\repos\CanvelBackEnd\obj\Release\net9.0\CanvelBackEnd.genruntimeconfig.cache
 C:\Users\Usuario\source\repos\CanvelBackEnd\obj\Release\net9.0\ref\CanvelBackEnd.dll
+C:\Users\Usuario\source\repos\CanvelBackEnd\obj\Release\net9.0\CanvelBackEnd.sourcelink.json

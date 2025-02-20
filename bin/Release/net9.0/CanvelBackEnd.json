@@ -46,19 +46,19 @@
   "definitions": {
     "EmailModel": {
       "required": [
-        "to",
-        "subject",
-        "body"
+        "name",
+        "email",
+        "message"
       ],
       "type": "object",
       "properties": {
-        "to": {
+        "name": {
           "type": "string"
         },
-        "subject": {
+        "email": {
           "type": "string"
         },
-        "body": {
+        "message": {
           "type": "string"
         }
       }

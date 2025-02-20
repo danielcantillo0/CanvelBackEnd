@@ -22,11 +22,11 @@ namespace CanvelBackEnd.Controllers
         public class EmailModel
         {
             [Required]
-            public string To { get; set; }
+            public string Name { get; set; }
             [Required]
-            public string Subject { get; set; }
+            public string Email { get; set; }
             [Required]
-            public string Body { get; set; }
+            public string Message { get; set; }
         }
 
         [HttpPost]
@@ -41,14 +41,15 @@ namespace CanvelBackEnd.Controllers
                 // Create a new MimeMessage
                 var message = new MimeMessage();
                 message.From.Add(new MailboxAddress("Nuevo Contacto por la Pagina Web", $"{secretEmail}"));
-                message.To.Add(new MailboxAddress("", email.To));
-                message.Subject = email.Subject;
+                message.To.Add(new MailboxAddress("", "info@canvel.co"));
+                message.Subject = "Nuevo contacto a traves de la Pagina Web";
 
                 // Set the message body (plain text)
                 message.Body = new TextPart("plain")
                 {
-                    Text = email.Body
+                    Text = $"Nombre: {email.Name}\n\nCorreo: {email.Email}\n\nMensaje: {email.Message}"
                 };
+
 
                 using (var client = new SmtpClient())
                 {

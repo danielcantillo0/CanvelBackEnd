@@ -10,7 +10,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowBlazorClient", builder =>
     {
-        builder.WithOrigins("https://localhost:5001") // Adjust to your client URL
+        builder.WithOrigins("https://localhost:7198", "https://canvel.co") // Adjust to your client URL
                .AllowAnyHeader()
                .AllowAnyMethod();
     });
@@ -39,6 +39,15 @@ if (app.Environment.IsDevelopment())
 // In the middleware section:
 app.UseCors("AllowBlazorClient");
 
+//app.Use(async (context, next) =>
+//{
+//    if (context.Request.Method == "OPTIONS")
+//    {
+//        context.Response.StatusCode = 200;
+//        return;
+//    }
+//    await next();
+//});
 
 app.UseHttpsRedirection();
 
