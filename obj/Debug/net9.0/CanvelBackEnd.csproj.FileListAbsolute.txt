@@ -35,3 +35,4 @@ C:\Users\Usuario\source\repos\CanvelBackEnd\obj\Debug\net9.0\ref\CanvelBackEnd.d
 C:\Users\Usuario\source\repos\CanvelBackEnd\bin\Debug\net9.0\BouncyCastle.Cryptography.dll
 C:\Users\Usuario\source\repos\CanvelBackEnd\bin\Debug\net9.0\MailKit.dll
 C:\Users\Usuario\source\repos\CanvelBackEnd\bin\Debug\net9.0\MimeKit.dll
+C:\Users\Usuario\source\repos\CanvelBackEnd\obj\Debug\net9.0\CanvelBackEnd.sourcelink.json

@@ -5,6 +5,29 @@
     "version": "1.0.0"
   },
   "paths": {
+    "/api/Products": {
+      "get": {
+        "tags": [
+          "Products"
+        ],
+        "produces": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK",
+            "schema": {
+              "type": "array",
+              "items": {
+                "$ref": "#/definitions/ProductDto"
+              }
+            }
+          }
+        }
+      }
+    },
     "/api/SendEmail": {
       "post": {
         "tags": [
@@ -62,9 +85,23 @@
           "type": "string"
         }
       }
+    },
+    "ProductDto": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "url": {
+          "type": "string"
+        }
+      }
     }
   },
   "tags": [
+    {
+      "name": "Products"
+    },
     {
       "name": "SendEmail"
     }
